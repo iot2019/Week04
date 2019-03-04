@@ -9,7 +9,7 @@ void setup() {
   pinMode(LedPin, OUTPUT);
   pinMode(swPin, INPUT_PULLUP); 
   
-  // 시리얼 모니터 설정 
+  // 시리얼 통신 설정 
   Serial.begin(9600);
 }
 
