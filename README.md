@@ -2,8 +2,8 @@
 * 소스 설명 : INPUT_PULLUP을 사용하여 LED ON/OFF
 <pre>
 <code>
-int LedPin = 7;  // LED PIN
-int swPin = 8;   // INPUT_PULLUP SWITCH PIN
+int LedPin = 8;  // LED PIN
+int swPin = 7;   // INPUT_PULLUP SWITCH PIN
 void setup() {
   // put your setup code here, to run once:
   pinMode(LedPin, OUTPUT);
