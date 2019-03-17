@@ -40,7 +40,7 @@ void loop() {
                                      
 * 회로도(PULL DOWN 저항)
 <div>
-<img width="600" alt="https://user-images.githubusercontent.com/1857075/54485003-be910900-48b4-11e9-9976-daddc7d2490a.jpg">
+<img width="600" src="https://user-images.githubusercontent.com/1857075/54485003-be910900-48b4-11e9-9976-daddc7d2490a.jpg">
 </div>
                                      
                                      
