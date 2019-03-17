@@ -34,7 +34,7 @@ void loop() {
 
 <HR>
 
-* 소스 코드 : PULL UP 저항
+* 소스 코드 : PULL UP 저항을 사용하여 내부 LED(13) ON/OFF
 <pre>
 <code>
 #define ledPin 13 // 아두이노 내부 LED
@@ -63,7 +63,7 @@ void loop() {
 </code>
 </pre>
 
-* 회로도 : PULL UP 저항
+* 회로도 : PULL UP 저항을 사용하여 내부 LED(13) ON/OFF
 <div>
 <img width="600" alt="screen01" src="https://user-images.githubusercontent.com/1857075/54485001-ba64eb80-48b4-11e9-9c80-444b2e6d5eef.jpg">
 </div>
