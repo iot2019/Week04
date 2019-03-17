@@ -33,7 +33,6 @@ void loop() {
 </div>
 
 <div>
-  </pre>
 * 회로도
 <div>
 <img width="600" alt="screen01" src="https://user-images.githubusercontent.com/1857075/54485001-ba64eb80-48b4-11e9-9c80-444b2e6d5eef.jpg>
