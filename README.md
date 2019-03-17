@@ -1,5 +1,5 @@
 # Week04
-* 소스 설명 : INPUT_PULLUP을 사용하여 LED ON/OFF
+* 소스 코드 : INPUT_PULLUP을 사용하여 LED(8 Pin) ON/OFF
 <pre>
 <code>
 int LedPin = 8;  // LED PIN
@@ -27,8 +27,84 @@ void loop() {
 }
 </code>
 </pre>
-* 회로도
+* 회로도 : INPUT_PULLUP 저항
 <div>
 <img width="600" alt="screen01" src="https://user-images.githubusercontent.com/1857075/53737146-0dab6700-3ecf-11e9-8c45-dc18ac296338.jpg">
 </div>
 
+<HR>
+
+* 소스 코드 : PULL UP 저항을 사용하여 내부 LED(13) ON/OFF
+<pre>
+<code>
+#define ledPin 13 // 아두이노 내부 LED
+#define swPin 7
+
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(ledPin, OUTPUT);
+  pinMode(swPin, INPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  int value = digitalRead(swPin);
+  Serial.println(value);
+
+  if(value == 1) {
+    digitalWrite(ledPin, HIGH);
+    delay(20);
+  } else {
+    digitalWrite(ledPin, LOW);
+    delay(20);
+  }
+}
+</code>
+</pre>
+
+* 회로도 : PULL UP 저항을 사용하여 내부 LED(13) ON/OFF
+<div>
+<img width="600" alt="screen01" src="https://user-images.githubusercontent.com/1857075/54485001-ba64eb80-48b4-11e9-9c80-444b2e6d5eef.jpg">
+</div>
+<HR>
+                                     
+
+
+* 소스 코드 : PULL DOWN 저항
+<pre>
+<code>
+#define ledPin 13 // 아두이노 내부 LED
+#define swPin 7
+
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(ledPin, OUTPUT);
+  pinMode(swPin, INPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  int value = digitalRead(swPin);
+  Serial.println(value);
+
+  if(value == 1) {
+    digitalWrite(ledPin, HIGH);
+    delay(20);
+  } else {
+    digitalWrite(ledPin, LOW);
+    delay(20);
+  }
+}
+</code>
+</pre>
+                                     
+* 회로도 : PULL DOWN 저항
+<div>
+<img width="600" src="https://user-images.githubusercontent.com/1857075/54485003-be910900-48b4-11e9-9976-daddc7d2490a.jpg">
+</div>                                 
+                                     
+                                     
+                                     
+                                     
