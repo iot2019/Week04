@@ -1,5 +1,5 @@
 # Week04
-* 소스 코드 : INPUT_PULLUP을 사용하여 LED ON/OFF
+* 소스 코드 : INPUT_PULLUP을 사용하여 LED(8 Pin) ON/OFF
 <pre>
 <code>
 int LedPin = 8;  // LED PIN
