@@ -34,11 +34,6 @@ void loop() {
 
 <HR>
 
-* 회로도 : PULL UP 저항
-<div>
-<img width="600" alt="screen01" src="https://user-images.githubusercontent.com/1857075/54485001-ba64eb80-48b4-11e9-9c80-444b2e6d5eef.jpg">
-</div>
-
 * 소스 코드 : PULL UP 저항
 <pre>
 <code>
@@ -68,12 +63,12 @@ void loop() {
 </code>
 </pre>
 
+* 회로도 : PULL UP 저항
+<div>
+<img width="600" alt="screen01" src="https://user-images.githubusercontent.com/1857075/54485001-ba64eb80-48b4-11e9-9c80-444b2e6d5eef.jpg">
+</div>
 <HR>
                                      
-* 회로도 : PULL DOWN 저항
-<div>
-<img width="600" src="https://user-images.githubusercontent.com/1857075/54485003-be910900-48b4-11e9-9976-daddc7d2490a.jpg">
-</div>
 
 
 * 소스 코드 : PULL DOWN 저항
@@ -105,7 +100,10 @@ void loop() {
 </code>
 </pre>
                                      
-                                     
+* 회로도 : PULL DOWN 저항
+<div>
+<img width="600" src="https://user-images.githubusercontent.com/1857075/54485003-be910900-48b4-11e9-9976-daddc7d2490a.jpg">
+</div>                                 
                                      
                                      
                                      
