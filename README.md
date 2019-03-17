@@ -27,7 +27,7 @@ void loop() {
 }
 </code>
 </pre>
-* 회로도(INPUT_PULLUP 저항)
+* 회로도 : INPUT_PULLUP 저항
 <div>
 <img width="600" alt="screen01" src="https://user-images.githubusercontent.com/1857075/53737146-0dab6700-3ecf-11e9-8c45-dc18ac296338.jpg">
 </div>
