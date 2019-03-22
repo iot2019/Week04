@@ -1,5 +1,7 @@
+// INPUT_PULLUP 저항으로 LED ON/OFF
+
 int LedPin = 7;  // LED PIN
-int swPin = 8;   // INPUT_PULLUP SWITCH PIN
+int swPin = 4;   // INPUT_PULLUP SWITCH PIN
 void setup() {
   // put your setup code here, to run once:
   pinMode(LedPin, OUTPUT);
@@ -14,10 +16,11 @@ void loop() {
   int swState = digitalRead(swPin);
   // 시리얼 모니터에 출력
   Serial.println(swState);
-  
-  if (swState == LOW ) {
-      digitalWrite(LedPin, HIGH);
+
+  // 초기 상태는 swState가 1이므로 LED OFF
+  if (swState == 1 ) {
+      digitalWrite(LedPin, LOW);
   } else {
-    digitalWrite(LedPin, LOW);
+    digitalWrite(LedPin, HIGH);
   }
 }
