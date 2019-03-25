@@ -1,10 +1,12 @@
 // PULL UP SWITCH
 // read 값에 따라 내부 LED(13번 ON/OFF
 int swPin = 4;
+int ledPin = 13; // 내부 LED Pin
 
 void setup() {
   // put your setup code here, to run once:
   pinMode(swPin, INPUT);
+  pinMode(ledPin, OUTPUT); // 내부 LED
   Serial.begin(9600);
 }
 
